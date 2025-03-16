@@ -1,0 +1,39 @@
+/* Custom styles for the application */
+.nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.nutrition-table th,
+.nutrition-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.nutrition-table th {
+  background-color: #1f2937;
+  color: white;
+  font-weight: 600;
+}
+
+.exercise-item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.exercise-item:last-child {
+  border-bottom: none;
+}
+
+.exercise-icon {
+  margin-right: 1rem;
+  color: #4b5563;
+}
+
+.chart-container {
+  height: 300px;
+  width: 100%;
+}
